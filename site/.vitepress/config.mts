@@ -20,15 +20,22 @@ export default defineConfig({
       { text: "NestJs", link: "/nestjs" },
     ],
 
-    sidebar: [
-      {
-        text: "Examples",
-        items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
-        ],
-      },
-    ],
+    sidebar: {
+      "/gcp/": [
+        {
+          text: "GCP",
+          collapsed: false,
+          items: [
+            { text: "Create Cloud SQL", link: "/gcp/create-cloudsql/" },
+            {
+              text: "Create Artifact registry",
+              link: "/gcp/create-artifact-registry",
+            },
+            { text: "Create Cloud Run", link: "/gcp/create-cloud-run" },
+          ],
+        },
+      ],
+    },
     socialLinks: [
       { icon: "github", link: "https://github.com/kittaweek" },
       {
