@@ -29,9 +29,9 @@ export default defineConfig({
             { text: "Create Cloud SQL", link: "/gcp/create-cloudsql/" },
             {
               text: "Create Artifact registry",
-              link: "/gcp/create-artifact-registry",
+              link: "/gcp/create-artifact-registry/",
             },
-            { text: "Create Cloud Run", link: "/gcp/create-cloud-run" },
+            { text: "Create Cloud Run", link: "/gcp/create-cloud-run/" },
           ],
         },
       ],
