@@ -6,12 +6,14 @@
 - Location type
   - Region or multi-region
   - select your region
-- Encryption : 
-  - Google-managed encryption key (Default) : Keys owned by Google (Select this.)
+- Encryption
+  - Google-managed encryption key (Default) : Keys owned by Google **[Select ✅]**
   - Cloud KMS key : Keys owned by customers
 
 ### Push Image to artifact registry
+
 - Connect to GCP & connect docker to registry
+
 ```bash
 # GCP Login by gcloud cli
 gcloud auth login

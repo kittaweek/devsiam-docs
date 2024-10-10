@@ -22,6 +22,7 @@
 ----------------------------------------------------------------
 
 ### Edition Preset
+
 | Preset      | Enterprise Plus | Enterprise |
 | ----------- | --------------- | ---------- |
 | Production  | ✅              | ✅         |
@@ -31,6 +32,7 @@
 ----------------------------------------------------------------
 
 ### Region and zonal
+
 - Single or multiple zones
 
 ----------------------------------------------------------------
@@ -47,14 +49,14 @@
 
 ##### Type
 
-- SSD : Most popular choice. Lower latency than HDD with higher QPS and data throughput.
+- SSD : Most popular choice. Lower latency than HDD with higher QPS and data throughput. **[SELECT ✅]**
 - HDD : Lower performance than SSD with lower storage rates.
 - You must choose **SSD** because price difference is minimal.
 
 ##### Storage capacity
 
 - You must choose minimum capacity(10GB), because you  <b style="color:red">can't decreased later.!!!</b>
-- Enable automatic storage increases : Check or Uncheck 
+- Enable automatic storage increases : Check or Uncheck
 
 ----------------------------------------------------------------
 
