@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "dev": "vitepress dev",
-    "build": "vitepress build",
-    "preview": "vitepress preview"
+    "dev": "vitepress dev site --port 8080",
+    "build": "vitepress build site",
+    "preview": "vitepress preview site"
   },
   "devDependencies": {
     "vitepress": "^1.2.2"
