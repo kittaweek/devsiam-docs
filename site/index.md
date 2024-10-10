@@ -4,13 +4,23 @@ layout: home
 
 hero:
   name: "Devsiam Docs"
-  text: "เว็ปง่ายๆ"
-  tagline: My great project tagline
+  text: ""
+  tagline: My documentation for me.
   actions:
     - theme: brand
+      text: GCP
+      link: /gcp
+    - theme: alt
+      text: PHP
+      link: /php
+    - theme: alt
       text: Python
       link: /python
     - theme: alt
-      text: Machine learning
+      text: VueJs
+      link: /vuejs
+    - theme: alt
+      text: NestJs
+      link: /nestjs
 ---
 
