@@ -55,6 +55,16 @@
 
 ----------------------------------------------------------------
 
+### Networking
+
+<b style="color:red">Setting your network configuration if you use external services !!!</b>
+
+- Connect to a VPC for outbound traffic **[SELECT ✅]**
+
+  - select Network & Subnet
+
+----------------------------------------------------------------
+
 ### Requests
 
 - Request timeout : 300 seconds (default)
