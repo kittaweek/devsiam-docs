@@ -11,6 +11,9 @@ permissions:
 concurrency:
   group: pages
   cancel-in-progress: false
+env: 
+  VITE_AUTH0_CLIENT_ID: ${{ secrets.VITE_AUTH0_CLIENT_ID }}
+  VITE_AUTH0_DOMAIN: ${{ secrets.VITE_AUTH0_DOMAIN }}
 
 jobs:
   build:
@@ -30,9 +33,6 @@ jobs:
       - name: Install dependencies
         run: yarn install # or npm ci / pnpm install / yarn install / bun install
       - name: Build with VitePress
-        env: 
-          VITE_AUTH0_CLIENT_ID: ${{ secrets.VITE_AUTH0_CLIENT_ID }}
-          VITE_AUTH0_DOMAIN: ${{ secrets.VITE_AUTH0_DOMAIN }}
         run: |
           yarn build
           touch site/.vitepress/dist/.nojekyll
@@ -51,8 +51,5 @@ jobs:
     name: Deploy
     steps:
       - name: Deploy to GitHub Pages
-        env: 
-          VITE_AUTH0_CLIENT_ID: ${{ secrets.VITE_AUTH0_CLIENT_ID }}
-          VITE_AUTH0_DOMAIN: ${{ secrets.VITE_AUTH0_DOMAIN }}
         id: deployment
         uses: actions/deploy-pages@v4
