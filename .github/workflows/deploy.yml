@@ -51,7 +51,7 @@ jobs:
     name: Deploy
     steps:
       - name: Install dependencies 
-        run: echo "Domain is ${{ secrets.VITE_AUTH0_DOMAIN }}"
+        run: echo "Domain is ${{ vars.VITE_AUTH0_DOMAIN }}"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
