@@ -21,9 +21,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test
-        run: echo "VITE_AUTH0_DOMAIN - ${{ VITE_AUTH0_DOMAIN }}"
+        run: echo "VITE_AUTH0_DOMAIN - $VITE_AUTH0_DOMAIN"
       - name: Test
-        run: echo "VITE_TEST - ${{ VITE_TEST }}"
+        run: echo "VITE_TEST - $VITE_TEST"
       - name: Checkout
         uses: actions/checkout@v4
         with:
