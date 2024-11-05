@@ -6,3 +6,6 @@ site/.vitepress/cache
 
 # Mac OS X
 .DS_Store
+
+# Environment variables
+.env

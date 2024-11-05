@@ -1,4 +1,7 @@
 import { defineConfig } from 'vitepress'
+import Cookies from "js-cookie";
+const user_email=Cookies.get('user_email')
+
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -11,6 +14,9 @@ export default defineConfig({
       copyright:
         'Kittawee Kongpan | © 2023-present | Powered by <a href="https://vitepress.dev" target="_blank">VitePress</a>',
     },
+    search: {
+      provider: 'local'
+    },
     nav: [
       { text: "Home", link: "/" },
       { text: "GCP", link: "/gcp" },
@@ -18,8 +24,14 @@ export default defineConfig({
       { text: "Python", link: "/python" },
       { text: "VueJS", link: "/vuejs" },
       { text: "NestJs", link: "/nestjs" },
-    ],
+      {
+        text: user_email,
+        items: [
+          { text: 'Sign out', link: '/signout' },
+        ]
+      }
 
+    ],
     sidebar: {
       "/gcp/": [
         {
