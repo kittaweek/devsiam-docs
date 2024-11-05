@@ -19,13 +19,8 @@ jobs:
     env: 
       VITE_AUTH0_CLIENT_ID: ${{ secrets.VITE_AUTH0_CLIENT_ID }}
       VITE_AUTH0_DOMAIN: ${{ secrets.VITE_AUTH0_DOMAIN }}
-      VITE_TEST: "VITE_TEST"
     runs-on: ubuntu-latest
     steps:
-      - name: Test
-        run: echo "VITE_AUTH0_DOMAIN - $VITE_AUTH0_DOMAIN"
-      - name: Test
-        run: echo "VITE_TEST - $VITE_TEST"
       - name: Checkout
         uses: actions/checkout@v4
         with:
