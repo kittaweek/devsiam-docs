@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "vitepress dev site --port 8080",
+    "dev": "export $(cat .env | xargs) && vitepress dev site  --port 8080",
     "build": "vitepress build site",
     "preview": "vitepress preview site"
   },
