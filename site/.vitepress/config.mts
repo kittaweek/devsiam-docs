@@ -44,6 +44,12 @@ export default defineConfig({
               link: "/gcp/create-artifact-registry/",
             },
             { text: "Create Cloud Run", link: "/gcp/create-cloud-run/" },
+            { text: "Cloud Build", items: [
+              { text: "Cloud Build", link: "/gcp/cloud-build/" },
+              { text: "Create Cloud Build", link: "/gcp/cloud-build/create-cloud-build/" },
+              { text: "cloudbuild.yaml example file", link: "/gcp/cloud-build/cloudbuild.yaml-example/" },
+
+            ] },
           ],
         },
       ],

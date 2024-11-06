@@ -3,3 +3,6 @@
 - [Create Cloud SQL](/gcp/create-cloudsql/)
 - [Create Artifact registry](/gcp/create-artifact-registry/)
 - [Deploy Cloud Run](/gcp/create-cloud-run/)
+- [Cloud Build](/gcp/cloud-build/)
+  - [Create Cloud Build](/gcp/cloud-build/create-cloud-build/)
+  - [cloudbuild.yaml example file](/gcp/cloud-build/cloudbuild.yaml-example/)
