@@ -1,6 +1,6 @@
 # Create Artifact Registry
 
-### Creat repository
+## Creat repository
 
 - Format : docker
 - Location type
@@ -10,7 +10,7 @@
   - Google-managed encryption key (Default) : Keys owned by Google **[Select ✅]**
   - Cloud KMS key : Keys owned by customers
 
-### Push Image to artifact registry
+## Push Image to artifact registry
 
 - Connect to GCP & connect docker to registry
 
