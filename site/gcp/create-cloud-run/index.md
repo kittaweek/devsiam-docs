@@ -1,6 +1,6 @@
 # Create Cloud Run
 
-### Deploy container type
+## Deploy container type
 
 | Featrure         | Services                                   | Job                                             |
 | ---------------- | ------------------------------------------ | ----------------------------------------------- |
@@ -16,7 +16,7 @@
 
 ----------------------------------------------------------------
 
-### Deploy by
+## Deploy by
 
 - Artifact Registry,Docker Hub : Deploy one revision from an existing container image **[SELECT ✅]**
   - Select container image url
@@ -25,7 +25,7 @@
 
 ----------------------------------------------------------------
 
-### Configure
+## Configure
 
 - Service name : Add service name
 - Region : select region
@@ -35,27 +35,27 @@
 
 ----------------------------------------------------------------
 
-### Service auto-scaling
+## Service auto-scaling
 
 - Minimum number of instances : add 0
 
 ----------------------------------------------------------------
 
-### Container(s)
+## Container(s)
 
-#### Settings
+### Settings
 
 - Resources : Select memory & cpu
 - Health checks : optionals
 
-#### Variables & Secrets
+### Variables & Secrets
 
 - Add your enviroment variables
 - **If you used Cloud SQL you can use hostname with `/cloudsql/$CLOUDSQL_CONNECTION_NAME`**
 
 ----------------------------------------------------------------
 
-### Networking
+## Networking
 
 <b style="color:red">Setting your network configuration if you use external services !!!</b>
 
@@ -65,19 +65,19 @@
 
 ----------------------------------------------------------------
 
-### Requests
+## Requests
 
 - Request timeout : 300 seconds (default)
 - Maximum concurrent requests per instance : 80 (default)
 
 ----------------------------------------------------------------
 
-### Revision auto-scaling
+## Revision auto-scaling
 
 - Minimum number of instances : 0 (default)
 - Maximum number of instances : 100 (default)
 
-### Cloud SQL connections
+## Cloud SQL connections
 
 - Add cloud sql instance
 

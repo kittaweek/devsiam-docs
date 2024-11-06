@@ -5,4 +5,4 @@
 - [Deploy Cloud Run](/gcp/create-cloud-run/)
 - [Cloud Build](/gcp/cloud-build/)
   - [Create Cloud Build](/gcp/cloud-build/create-cloud-build/)
-  - [cloudbuild.yaml example file](/gcp/cloud-build/cloudbuild.yaml-example/)
+  - [Example file](/gcp/cloud-build/example-file/)

@@ -1,6 +1,6 @@
 # Create Cloud SQL
 
-### Database engine types
+## Database engine types
 
 - MySQL
 - PostgreSQL
@@ -8,7 +8,7 @@
 
 ----------------------------------------------------------------
 
-### SQL edition
+## SQL edition
 
 | Enterprise Plus                                 | Enterprise                                        |
 | ----------------------------------------------- | ------------------------------------------------- |
@@ -21,7 +21,7 @@
 
 ----------------------------------------------------------------
 
-### Edition Preset
+## Edition Preset
 
 | Preset      | Enterprise Plus | Enterprise |
 | ----------- | --------------- | ---------- |
@@ -31,36 +31,36 @@
 
 ----------------------------------------------------------------
 
-### Region and zonal
+## Region and zonal
 
 - Single or multiple zones
 
 ----------------------------------------------------------------
 
-### Customise your instance
+## Customise your instance
 
-#### Machine configuration
+### Machine configuration
 
 - select your machine
 
 ----------------------------------------------------------------
 
-#### Storage
+### Storage
 
-##### Type
+#### Type
 
 - SSD : Most popular choice. Lower latency than HDD with higher QPS and data throughput. **[SELECT ✅]**
 - HDD : Lower performance than SSD with lower storage rates.
 - You must choose **SSD** because price difference is minimal.
 
-##### Storage capacity
+#### Storage capacity
 
 - You must choose minimum capacity(10GB), because you  <b style="color:red">can't decreased later.!!!</b>
 - Enable automatic storage increases : Check or Uncheck
 
 ----------------------------------------------------------------
 
-#### Connections
+### Connections
 
 - Private ip
   - Assigns an internal, Google-hosted VPC IP address. Requires additional APIs and permissions. Can't be disabled once enabled.
@@ -71,7 +71,7 @@
 
 ----------------------------------------------------------------
 
-#### Data Protection
+### Data Protection
 
 - Automate daily backups & Enable point-in-time recovery
   - Daily backups are taken in the window of time selected. The operation may continue outside the window until complete.

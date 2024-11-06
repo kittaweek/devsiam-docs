@@ -1,4 +1,6 @@
-# cloudbuild.yaml example file.
+# Example file.
+
+## cloudbuild.yaml
 
 | Environment name      | Description                               |
 | --------------------- | ----------------------------------------- |

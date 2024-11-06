@@ -4,13 +4,13 @@
 
 ----------------------------------------------------------------
 
-### Name
+## Name
 
 - Must be unique within the project's region
 
 ----------------------------------------------------------------
 
-### Region
+## Region
 
 - Required
 - Select : global (Global) ✅
@@ -18,7 +18,7 @@
 
 ----------------------------------------------------------------
 
-### Event
+## Event
 
 - Repository event that invokes trigger
 
@@ -32,7 +32,7 @@
 
 ----------------------------------------------------------------
 
-### Source
+## Source
 
 - 1st gen : as default **[SELECT ✅]**
 - 2nd gen
@@ -41,16 +41,16 @@
 
 ----------------------------------------------------------------
 
-### Configuration
+## Configuration
 
-#### Type
+### Type
 
 - Autodetected : A cloudbuild.yaml or Dockerfile will be detected in the repository : as default
 - Cloud Build configuration file (YAML or JSON) **[SELECT ✅]**
 - Dockerfile
 - Buildpacks
 
-#### Location
+### Location
 
 Has 2 locations
 
@@ -59,22 +59,21 @@ Has 2 locations
 
 **Recommend : select `Repository` to fully manage your CI/CD.**
 
-##### Autodetected
+#### Autodetected
 
 - Select `Repository` only.
 
-##### Cloud Build configuration file
+#### Cloud Build configuration file
 
 - Cloud Build configuration file location : default as `cloudbuild.yaml`**[Use default ✅]**
 
-#### Dockerfile
+### Dockerfile
 
 - Dockerfile directory
 - Dockerfile name
 - Image name : Auto generated to gcr.io
 
-
-#### Buildpacks
+### Buildpacks
 
 - Build directory
 - Image name : Auto generated to gcr.io
@@ -82,11 +81,10 @@ Has 2 locations
 
 ----------------------------------------------------------------
 
-### Advanced
+## Advanced
 
 - Substitution variables
   - Add your environment variables.
   - Substitution variables must begin with an underscore (_) and use only uppercase letters and numbers, or be one of the following.
 
 - Select service account **[Required ✅]**.
-
