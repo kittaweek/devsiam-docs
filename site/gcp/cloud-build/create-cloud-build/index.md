@@ -84,7 +84,9 @@ Has 2 locations
 
 ### Advanced
 
-- Select service account **[Required ✅]**.
+- Substitution variables
+  - Add your environment variables.
+  - Substitution variables must begin with an underscore (_) and use only uppercase letters and numbers, or be one of the following.
 
-----------------------------------------------------------------
+- Select service account **[Required ✅]**.
 
