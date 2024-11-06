@@ -3,3 +3,4 @@
 - [Create Cloud SQL](/gcp/create-cloudsql/)
 - [Create Artifact registry](/gcp/create-artifact-registry/)
 - [Deploy Cloud Run](/gcp/create-cloud-run/)
+- [Create Cloud Build](/gcp/create-cloud-build/)
