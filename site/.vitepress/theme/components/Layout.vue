@@ -8,7 +8,7 @@ const { Layout } = DefaultTheme;
 
 <template>
   <div class="main-content">
-    <div v-if="user?.email=='kittawee9469@gmail.com'">
+    <div v-if="isValidated">
       <Layout>
         <Content>
         </Content>
@@ -31,6 +31,7 @@ import auth from "../../auth";
 export default {
   data() {
     return {
+      environment:import.meta.env.VITE_ENV,
       auth0client: null,
       user: null,
     };
@@ -54,5 +55,11 @@ export default {
       }
     }
   },
+    computed: {
+    isValidated() {
+        return this.user?.email==='kittawee9469@gmail.com'|| this.environment=='local'
+    }
+  }
+
 };
 </script>

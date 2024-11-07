@@ -17,6 +17,7 @@ jobs:
     environment:
         name: github-pages
     env: 
+      VITE_ENV: ${{ secrets.VITE_ENV }}
       VITE_AUTH0_CLIENT_ID: ${{ secrets.VITE_AUTH0_CLIENT_ID }}
       VITE_AUTH0_DOMAIN: ${{ secrets.VITE_AUTH0_DOMAIN }}
     runs-on: ubuntu-latest
