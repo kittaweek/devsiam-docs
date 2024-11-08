@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import tabsPlugin from '@red-asuka/vitepress-plugin-tabs'
 import Cookies from "js-cookie";
 const user_email=Cookies.get('user_email')
 
@@ -7,6 +8,11 @@ const user_email=Cookies.get('user_email')
 export default defineConfig({
   title: "Devsiam Docs",
   description: "Easy docs for me.",
+  markdown: {
+    config: (md) => {
+      tabsPlugin(md)
+    },
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     footer: {
@@ -36,7 +42,7 @@ export default defineConfig({
       "/gcp/": [
         {
           text: "GCP",
-          collapsed: false,
+          collapsed: true,
           items: [
             { text: "Create Cloud SQL", link: "/gcp/create-cloudsql/" },
             {
@@ -47,11 +53,25 @@ export default defineConfig({
             { text: "Cloud Build", items: [
               { text: "Create Cloud Build", link: "/gcp/cloud-build/create-cloud-build/" },
               { text: "Example file", link: "/gcp/cloud-build/example-file/" },
-
             ] },
           ],
         },
       ],
+      "/php/":[
+        {
+          text: "PHP",
+          collapsed: true,
+          items: [
+            { text: "Laravel", 
+              collapsed: true,
+              items: [
+                { text: "Overview", link: "/php/laravel/" },
+              ]
+             },
+
+          ]
+        }
+      ]
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/kittaweek" },
