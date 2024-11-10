@@ -30,6 +30,8 @@ export default defineConfig({
       { text: "Python", link: "/python" },
       { text: "VueJS", link: "/vuejs" },
       { text: "NestJs", link: "/nestjs" },
+      { text: "Database", link: "/database" },
+      { text: "Operation", link: "/operation" },
       {
         text: user_email,
         items: [
@@ -68,9 +70,29 @@ export default defineConfig({
                 { text: "Overview", link: "/php/laravel/" },
               ]
              },
-
           ]
         }
+      ],
+      "/database/": [
+        {
+          text: "Database",
+          items: [
+            { text: "MySQL", link: "/database/mysql/" },
+            // { text: "PostgreSQL", link: "/database/postgresql/" },
+            // { text: "MongoDB", link: "/database/mongodb/" },
+          ],
+        },
+      ],
+      "/operation/": [
+        {
+          text: "Operation",
+          items: [
+            // { text: "Command Line Interface", link: "/operation/cli/" },
+            // { text: "Git", link: "/operation/git/" },
+            // { text: "Version Control", link: "/operation/version-control/" },
+            { text: "Shared Secret", link: "/operation/shared-secret/" },
+          ],
+        },
       ]
     },
     socialLinks: [
