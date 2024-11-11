@@ -1,3 +1,3 @@
 # Operations
 
-- [ShareSecret](/operation/shared-secret)
+- [ShareSecret](/operation/shared-secret/)
