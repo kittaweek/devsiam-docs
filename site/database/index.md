@@ -1,2 +1,2 @@
 # Operations
-- [mysql](/database/mysql)
+- [mysql](/database/mysql/)
