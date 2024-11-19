@@ -78,6 +78,7 @@ export default defineConfig({
           text: "Database",
           items: [
             { text: "MySQL", link: "/database/mysql/" },
+            { text: "MySQL VS PostgreSQL", link: "/database/mysql-vs-postgresql/" },
             // { text: "PostgreSQL", link: "/database/postgresql/" },
             // { text: "MongoDB", link: "/database/mongodb/" },
           ],
