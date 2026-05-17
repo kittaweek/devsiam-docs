@@ -1,14 +1,5 @@
 # devsiam-docs
 
-### Description
-Vitepress documentation
-
-### Initial 
-```bash
-npm
-# or
-yarn
-```
-
-### Dev
-See package.json
+> ⚠️ **This repository has been archived.**
+> All content has moved to [kittaweek/profile](https://github.com/kittaweek/profile) under `/site/docs/`.
+> Live at [devsiam.com/docs](https://devsiam.com/docs/)
